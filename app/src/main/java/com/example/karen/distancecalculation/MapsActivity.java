@@ -91,7 +91,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public boolean onMyLocationButtonClick() {
         Log.d(TAG, "MyLocation button clicked");
-        mMap.clear();
         return false;
     }
 
